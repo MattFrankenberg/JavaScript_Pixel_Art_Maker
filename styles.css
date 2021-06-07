@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: #F3F3F3;
+}
+
+h1 {
+    font-family: Nosifer;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    font-family: Nosifer;
+    font-size: 30px;
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    font-family: Nosifer;
+    font-size: 30px;
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 18px;
+}
+
+td {
+    width: 18px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+/*Credit https://w3bits.com/rainbow-text/ for the intructions on rainbow text*/
+.rainbow-texth1 {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
+.rainbow-texth2 {
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
